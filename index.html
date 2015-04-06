@@ -1,59 +1,111 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-	<head>
-		<title>
-			Welcome to DoggyStyle Salon.
-		</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<link href = 'bootstrap.css' rel = 'stylesheet' type = 'text/css'>
-		<link href = 'style.css' rel = 'stylesheet' type = 'text/css'>
-		<link href = 'icons.css' rel = 'stylesheet' type = 'text/css'>
+<head>
+		<title>DoggyStyleSalon</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
-		<nav class="header">
-  			<div class="container-fluid">
-    			<ul class="nav nav-tabs navbar-left ">
-  					<li  role='navigation' class="active"><a href="#">Home</a></li>
-  					<li role='navigation'><a href="#">About Us</a></li>
-  					<li role='navigation'><a href="#">Gallery</a></li>
-  					<li role='navigation'><a href="#">Book Now</a></li>
-  					<li role='navigation'><a href="#">Contact Us</a></li>
-				</ul>
-  			</div><!-- /.container-fluid -->
-		</nav>
-		<div class = 'jumbotron'>
-			 <!--<div class='text-left'><img src = 'doggystyle.jpg' /></div> -->
-			<div class = 'text'>
-				<h1 class='text-left'>
-					<em>
-						<em>
-							Welcome to DoggyStyle Salon.
-						</em>
-					</em>
-				</h1>
-				<h3 class='text-left'>
-					<em>
-						<em>
-							We are a small dog groomers located in Airdrie, North Lanarkshire. Please have a look around!
-						</em>
-					</em>
-				</h3>
-				<h3 class='text-left'>
-					<em>
-						<em>
-							Any questions please use the 'Contact Us' form and we will respond to you as soon as possible.
-						</em>
-					</em>
-				</h3>
+
+		<!-- Header -->
+			<div id="header">
+				<img src='images\doggystyle.png' style="height:50px;"/>
+				<h1>Hi, Welcome to Doggy Style Salon!</h1>
+				<p>Please have a look around and check out the gallery! </p>
 			</div>
-			<div class='text-left'>
-				<div class ='btn-group' >
-  				<button type="button" class="btn btn-lg">
-  					View Grooming Gallery
-  				</button>
-  			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<header class="major container 75%">
+					<h2>I have been running
+					<br />
+					this business for five
+					<br />
+					and a half years now</h2>
+				</header>
+
+				<div class="box alt container">
+					<section class="feature left">
+						<a href="#" class="image icon"><img src="images/lhasa1.jpg" alt="" /></a>
+						<div class="content">
+							<h3>The First Thing</h3>
+							<p>Yeah im big on my music, probably the reason why im so happy in my current job at teamrock. They do alot of work with and for The Metal Hammer Magazine. When someone asks me who my favorite band is, I always say Parkway Drive just cause im a little fan girl like that...</p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a href="#" class="image icon "><img src="images/lhasa2.jpg" alt="" /></a>
+						<div class="content">
+							<h3>The Second Thing</h3>
+							<p>I Like Coding, its all like one big jigsaw to me, I love how creative and limitless to possibilites are. For the moment i am now learning more back end PHP server side scripting, but I still enjoy front end design and hope I can do both one day!</p>
+						</div>
+					</section>
+					<section class="feature left">
+						<a href="#" class="image icon fa-mobile"><img src="images/pic03.jpg" alt="" /></a>
+						<div class="content">
+							<h3>The Third Thing</h3>
+							<p>I like Repsonsive websites. If you think about it everyones uses thier phones to go online now a days, so i feel it wise to use that to my advantage, and try and make most of my websites a shall we say "one size fits all"</p>
+						</div>
+					</section>
+				</div>
+
+				<footer class="major container 75%">
+					<h3>If you are looking to arrange an appointment, call or send me an email!</h3>
+					<p>Mobile is the best way to contact me!</p>
+					<ul class="actions">
+						<a href="tel:07415835716"></a>
+							<li><a href="#contactf" class="button">Book Now!</a></li>
+						</a>
+					</ul>
+				</footer>
+
 			</div>
-		</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container 75%">
+
+					<header class="major last">
+						<h2>Questions or comments?</h2>
+					</header>
+
+					<p>Yeah on a serious note, if you would like to contact me regarding any quries, web design, web development, logo Design then drop me an E-mail, I tend to reply rather quickly if im not busy saving the planet you know....
+						<br />
+						<br />
+					I said I was gonna be serious</p>
+					<br>
+
+					<p>To send me an email just click down below and it will open it up for you</p>
+					<form action="mailto:calvationn@gmail.com" enctype="text/plain" method="">
+						<p>Name: <input name="Name" type="text" id="Name" size="40"></p>
+						<p><input type="submit" name="Submit" value="Submit"></p>
+					</form>
+
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; Copyright of Calvin Taylor. All rights reserved.</li>
+					</ul>
+
+				</div>
+			</div>
+
 	</body>
+
+<!-- Mirrored from calvation.uk/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Apr 2015 00:55:16 GMT -->
 </html>
