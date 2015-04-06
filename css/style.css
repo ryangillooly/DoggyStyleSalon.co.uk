@@ -741,7 +741,7 @@ width: 200px;
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("../../doggystylesalon.co.uk/background.jpg"), url("../images/header.jpg");
+		background-image: url("images/top-3200.svg"), url("../images/background.jpg"), url("../images/header.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 		auto,					cover;
