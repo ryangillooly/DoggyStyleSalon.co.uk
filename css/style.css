@@ -673,6 +673,8 @@ width: 200px;
 		 .dog img {
 			position: relative;
 			-webkit-transform: rotate(12.685deg);
+		    -ms-transform: rotate(12.685deg); /* IE 9 */
+    		transform: rotate(12.685deg);
 			top: 854px;
 			right: 325px;
 		}
