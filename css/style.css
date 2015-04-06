@@ -669,6 +669,15 @@ width: 200px;
 			width: 50%;
 		}
 
+
+		 .dog img {
+			position: relative;
+			-webkit-transform: rotate(12.685deg);
+			top: 854px;
+			right: 325px;
+		}
+
+
 			.feature .image img {
 				display: block;
 				min-height: 100%;
