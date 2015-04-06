@@ -9,6 +9,10 @@
 
 /* Basic */
 
+#doggystyle {
+	height: 140px;
+}
+
 .feature-left .img {
 width: 200px;
 }
@@ -670,13 +674,12 @@ width: 200px;
 		}
 
 
-		 .dog img {
+		 .dog img{
 			position: relative;
 			-webkit-transform: rotate(12.685deg);
 		    -ms-transform: rotate(12.685deg); /* IE 9 */
     		transform: rotate(12.685deg);
-			top: 854px;
-			right: 325px;
+			top: 219px;
 		}
 
 
@@ -842,7 +845,7 @@ width: 200px;
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		background-color: #FF16D9;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
